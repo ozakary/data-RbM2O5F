@@ -1,21 +1,21 @@
-# Supporting Data for “Revealed Preferential Anion Ordering in Chemically Disordered RbM2O5F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”
+# Supporting Data for “Revealed Preferential Anion Ordering in Chemically Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”
 
 ## Graphical Abstract
 
-![Graphical Abstract](./TOC_NaMO2F2.png)
+![Graphical Abstract](./TOC_RbMO2O5F.png)
 
 **Author:** Ouail Zakary  
 **ORCID:** [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
 **E-mail:** [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
 **Website:** [Ouail Zakary - webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)
 
-This is the Supporting Dataset for the manuscript “Different Magnitudes of Second-Order Jahn-Teller Effect in Isostructural NaMO<sub>2</sub>F<sub>2</sub> (M = Nb, Ta) Oxyfluorides”.
+This is the Supporting Dataset for the manuscript “Revealed Preferential Anion Ordering in Chemically Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”.
 
 The dataset comprises the following sections:
 
 1. Powder X-ray diffraction data. ([directory](./powder_X-ray_diffraction/))
-2. Thermogravimetric and differential thermal analyses data. ([directory](./TGA_DTA/))
-3. Solid-state nuclear magnetic resonance spectroscopy data. ([directory](./ssNMR_spectra_exp_&_fit/))
+2. High-field solid-state nuclear magnetic resonance spectroscopy data. ([directory](./ssNMR_spectra_exp_&_fit/))
+3. Computational protocol for building and generating structural configurations from the unit cell of RbNb<sub>2</sub>O<sub>5</sub>F. ([directory](./computational_protocol/))
 4. First principle calculations data. ([directory](./first_principle_calculations/))
 5. Python scripts and raw numerical data for all figures included in the main manuscript and the Supporting Information. ([directory](./figures/))
 
@@ -23,10 +23,10 @@ The dataset comprises the following sections:
 
 If you use this data, please cite the following: \
 \
-**Paper:** Zakary, O.; Body, M.; Sarou-Kanian, V.; Arnaud, B.; Corbel, G.; Legein, C. Different Magnitudes of Second-Order Jahn-Teller Effect in Isostructural NaMO<sub>2</sub>F<sub>2</sub> (M = Nb, Ta) Oxyfluorides. *J. Alloys Compd.* **2024**.
+**Preprint(!!!NOT PEER REVIEWED YET!!!):** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. Revealed Preferential Anion Ordering in Chemically Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides. **2025**.
 
 \
-**Dataset:** Zakary, Ouail; Body, Monique; Sarou-Kanian, Vincent; Arnaud, Brice; Corbel, Gwenaël; Legein, Christophe (**2024**). Supporting Data for “Different Magnitudes of Second-Order Jahn-Teller Effect in Isostructural NaMO<sub>2</sub>F<sub>2</sub> (M = Nb, Ta) Oxyfluorides”. *figshare. Dataset.*
+**Dataset(!!!NOT PEER REVIEWED YET!!!):** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. (**2025**). Supporting Data for “Revealed Preferential Anion Ordering in Chemically Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”. *figshare. Dataset.*
 
 
 ---
