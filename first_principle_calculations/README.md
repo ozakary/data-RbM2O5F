@@ -10,16 +10,16 @@ This repository contains datasets from DFT calculations performed to optimize th
 
 The dataset includes both **inputs** (located in the folders: `INPUT_files`) and **outputs** (located in the folders: `OUTPUT_files`) for the following calculations:
 
-1. **Atomic Position Optimization (APO) of Unit Cell Tested Configurations n°1-20:**
+1. **Atomic Position Optimization (APO) of Unit Cell Tested Configurations n°1-20:**  
    **Folder:** `./RbNb2O5F/uc-APO` and `./RbTa2O5F/uc-APO`
 
-2. **NMR Parameter Calculations for the Unit Cell Tested Configurations n°1-20:**
+2. **NMR Parameter Calculations for the Unit Cell Tested Configurations n°1-20:**  
    **Folder:** `./RbNb2O5F/uc-APO_NMR` and `./RbTa2O5F/uc-APO_NMR`
 
-3. **Atomic Position Optimization (APO) of 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**
+3. **Atomic Position Optimization (APO) of 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**  
    **Folder:** `./RbNb2O5F/sc-APO` and `./RbTa2O5F/sc-APO`
 
-4. **NMR Parameter Calculations for the 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**
+4. **NMR Parameter Calculations for the 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**  
    **Folder:** `./RbNb2O5F/sc-APO_NMR` and `./RbTa2O5F/sc-APO_NMR`
    
 The `.slurm` files (named `<name>_jv_oz.slurm`, where `name` corresponds to each calculation) and the `.log` files (named `<name>_vasp_run.log`) can be found in the folders [RbNb<sub>2</sub>O<sub>5</sub>F](./RbNb2O5F) and [RbTa<sub>2</sub>O<sub>5</sub>F](./RbTa2O5F).
