@@ -1,4 +1,4 @@
-# Supporting Data for “Revealed Preferential Anion Ordering in Chemically Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”
+# Supporting Data for “Revealed Preferential Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”
 
 ## Graphical Abstract
 
