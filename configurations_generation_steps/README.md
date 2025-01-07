@@ -111,9 +111,8 @@ The same procedure used for [NbO<sub>6-x</sub>F<sub>x</sub>]<sup>n-</sup> analys
 │   ├── [Rb_config-2 through Rb_config-5]/
 │   ├── concatenated_configs_NbX6_l.csv
 │   └── concatenated_configs_NbX6_h.csv
-└── ./
-    ├── plot_ewald_dist.pdf
-    └── [other generated plots]
+├── plot_ewald_dist.pdf
+└── [other generated plots]
 ```
 ---
 
