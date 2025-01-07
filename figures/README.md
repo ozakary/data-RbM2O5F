@@ -15,6 +15,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 - **SciPy**
 - **Statsmodels**
 - **mrsimulator**
+- **supercell program**
 - **PowerPoint**
 - **DMFit**
 
