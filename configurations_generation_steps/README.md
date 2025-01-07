@@ -1,5 +1,10 @@
 # Computational Protocol for RbNb<sub>2</sub>O<sub>5</sub>F Structural Configurations
 
+**Author:** Ouail Zakary  
+**ORCID:** [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
+**E-mail:** [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
+**Website:** [Ouail Zakary - webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)
+
 This repository contains the computational protocol used to generate and analyze structural configurations of RbNb<sub>2</sub>O<sub>5</sub>F pyrochlore-type oxyfluorides, as described in the manuscript **"Revealed Preferential Anion Ordering in Disordered RbNb<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides"**.
 
 ## Prerequisites
@@ -110,3 +115,6 @@ The same procedure used for [NbO<sub>6-x</sub>F<sub>x</sub>]<sup>n-</sup> analys
     ├── plot_ewald_dist.pdf
     └── [other generated plots]
 ```
+---
+
+For further details, please refer to the respective folders or contact the author via the provided email.
