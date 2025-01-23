@@ -24,7 +24,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 
 | **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
 |------------|-------------|-------------|------------|-----------------|
-| [Figure 1](./manuscript/figure_1.pdf) | N/A | N/A | [Readme](./manuscript/figure_1_readme.txt) | [Description](./manuscript/figure_1_description.txt) |
+| [Figure 1](./manuscript/figure_1.pdf) | [Script A](./manuscript/figure_1-a_script.py), [Script B](./manuscript/figure_1-b_script.py) | [Data A](./manuscript/figure_1-a_data.asc), [Data B](./manuscript/figure_1-b_data.asc) | [Readme](./manuscript/figure_1_readme.txt) | [Description](./manuscript/figure_1_description.txt) |
 | [Figure 2](./manuscript/figure_2.pdf) | N/A | N/A | [Readme](./manuscript/figure_2_readme.txt) | [Description](./manuscript/figure_2_description.txt) |
 | [Figure 3](./manuscript/figure_3.pdf) | N/A | [Data](./manuscript/figure_3_data.agr) | [Readme](./manuscript/figure_3_readme.txt) | [Description](./manuscript/figure_3_description.txt) |
 | [Figure 4](./manuscript/figure_4.pdf) | N/A | [Data A](./manuscript/figure_4-a_data.agr), [Data C](./manuscript/figure_4-c_data.agr) | [Readme](./manuscript/figure_4_readme.txt) | [Description](./manuscript/figure_4_description.txt) |
