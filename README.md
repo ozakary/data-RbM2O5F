@@ -2,7 +2,7 @@
 
 ## Graphical Abstract
 
-![Graphical Abstract](./TOC_RbMO2O5F.png)
+![Graphical Abstract](./RbMO5F2_pyrochlores_TOC.png)
 
 **Author:** Ouail Zakary  
 **ORCID:** [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
