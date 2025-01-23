@@ -9,11 +9,11 @@ import time
 cutoff_distance = 2.0
 
 # Base path to the directory where the .cif files and the input text file are located
-base_directory = './step-2_OF_dist/Rb_config-1/'
+base_directory = './step-2_OF_dist/Rb_config-5/'
 
 # Path to the file containing the structure paths and energies
 input_file = os.path.join(base_directory, '2nd_step_coulomb_energy_h.txt')
-output_file = os.path.join(base_directory, 'oct_step-2_OF_dist_Rb_config-1_summary_h.csv')
+output_file = os.path.join(base_directory, 'oct_step-2_OF_dist_Rb_config-5_summary_h.csv')
 
 # Read the input file
 with open(input_file, 'r') as f:
@@ -23,7 +23,7 @@ with open(input_file, 'r') as f:
 output_data = []
 
 # Define the octahedral configurations of interest
-configurations_of_interest = ['NbO6F0', 'NbO5F1', 'NbO4F2', 'NbO3F3', 'NbO2F4', 'NbOF5', 'NbO0F6']
+configurations_of_interest = ['NbO6F0', 'NbO5F1', 'NbO4F2', 'NbO3F3', 'NbO2F4', 'NbO1F5', 'NbO0F6']
 
 # Start the timer
 start_time = time.time()
@@ -96,7 +96,7 @@ for index, structure_info in enumerate(structures):
             'NbO4F2': config_summary.get('NbO4F2', 0),
             'NbO3F3': config_summary.get('NbO3F3', 0),
             'NbO2F4': config_summary.get('NbO2F4', 0),
-            'NbOF5': config_summary.get('NbOF5', 0),
+            'NbO1F5': config_summary.get('NbO1F5', 0),
             'NbO0F6': config_summary.get('NbO0F6', 0)
         }
 
