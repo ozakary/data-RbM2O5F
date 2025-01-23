@@ -17,6 +17,7 @@ The dataset comprises the following sections:
 2. High-field solid-state nuclear magnetic resonance spectroscopy data. ([directory](./ssNMR_spectra_exp_&_fit/))
 3. Steps for building and generating structural configurations from the unit cell of RbNb<sub>2</sub>O<sub>5</sub>F. ([directory](./configurations_generation_steps/))
 4. First principle calculations data. ([directory](./first_principle_calculations/))
+6. Python scripts used to simulate the theoretical NMR spectra. ([directory](./simulated_nmr_spectra/))
 5. Python scripts and raw numerical data for all figures included in the main manuscript and the Supporting Information. ([directory](./figures/))
 
 ## Citations
