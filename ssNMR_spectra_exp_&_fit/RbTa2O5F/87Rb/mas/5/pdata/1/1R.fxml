@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NMRFit>
+<FitParameters>
+	<timestamp>2023-04-18T09:57:39Z</timestamp>
+	<DMFitVersion>20230120</DMFitVersion>
+	<FitMode>0</FitMode>
+	<FitModeAsc>Fit 1D</FitModeAsc>
+	<Sdev>3792.0935</Sdev>
+	<ComputeParam>
+		<ShapeSize>4096</ShapeSize>
+		<npasab>64</npasab>
+		<ssbMax>10</ssbMax>
+		<QuadStep>5</QuadStep>
+		<EtaStep>5</EtaStep>
+		<CptThreshold>99</CptThreshold>
+		<CSAStep>15</CSAStep>
+		<MinCSAStep>50</MinCSAStep>
+		<GaussMult>0.75</GaussMult>
+		<SWMult>4</SWMult>
+	</ComputeParam>
+	<Dimension>F2
+		<nucleus>87Rb</nucleus>
+		<frequency>278.2206565</frequency>
+		<spinrate>29984.69</spinrate>
+		<line>
+			<ModelName>Gaus/Lor</ModelName>
+			<amp>64182.72</amp>
+			<pos  Unit="ppm">-73.63</pos>
+			<wid  Unit="ppm">14</wid>
+			<gl>0.75</gl>
+			<T2>0.0817208209</T2>
+		</line>
+		<line>
+			<ModelName>Czjzek</ModelName>
+			<amp Fit="*"  Error="5390.45573">10850958.36</amp>
+			<pos Fit="*"  Unit="ppm" Error="0.02218">-76.50833521</pos>
+			<gl>0.75</gl>
+			<tr>3</tr>
+			<em_au>-3750</em_au>
+			<lb  Unit="ppm">-13.47851035</lb>
+			<CQ Fit="*"  Error="6.25509">1990.833475</CQ>
+			<d>5</d>
+			<sCZ_CQ>995.4167375</sCZ_CQ>
+			<CQ_max>1990.833475</CQ_max>
+		</line>
+	</Dimension>
+</FitParameters>
+<GraphParameters>
+	<Dimensions>
+		<X>
+			<min>749702.8407</min>
+			<max>-749930.9483</max>
+			<tic>139110.3283</tic>
+		</X>
+		<Amp>
+			<min>-83817.86992</min>
+			<max>1615739.481</max>
+		</Amp>
+	</Dimensions>
+</GraphParameters>
+<DataFile>
+	<FileName>bl3.1r</FileName>
+	<FileTitle>87Rb Rb</FileTitle>
+</DataFile>
+</NMRFit>

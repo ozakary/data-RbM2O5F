@@ -1,0 +1,95 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/254/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-09-08 21:09:09.828 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <new/edc PROCNO=1>)
+(   2,<2023-09-09 09:22:34.630 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       bc SI = 2K 
+       data hash MD5: 2K
+       51 9E 74 05 64 D5 23 F5 E2 17 2F A7 B5 41 F8 23>)
+(   3,<2023-09-09 09:24:25.632 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 NSP to 146>)
+(   4,<2023-09-09 09:24:26.939 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <ls NSP = 146 
+       data hash MD5: 2K
+       C6 EF 8D 0F 0A 7B E3 68 21 69 5B 21 6D 63 DA 5A>)
+(   5,<2023-09-09 09:24:41.480 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 PKNL to FALSE>)
+(   6,<2023-09-09 09:24:47.919 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       bc SI = 2K 
+       data hash MD5: 2K
+       51 9E 74 05 64 D5 23 F5 E2 17 2F A7 B5 41 F8 23>)
+(   7,<2023-09-09 09:24:52.573 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 GB to 0.01>)
+(   8,<2023-09-09 09:24:57.042 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 LB to -10.00>)
+(   9,<2023-09-09 09:24:58.916 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <gm LB = -10 GB = 0.01 SI = 2K 
+       data hash MD5: 2K
+       BE 0C FA 04 C4 3B 62 6C 54 CA 98 AF D8 51 7C 75>)
+(  10,<2023-09-09 09:25:03.308 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 LB to -50.00>)
+(  11,<2023-09-09 09:25:04.388 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       bc SI = 2K 
+       data hash MD5: 2K
+       51 9E 74 05 64 D5 23 F5 E2 17 2F A7 B5 41 F8 23>)
+(  12,<2023-09-09 09:25:06.389 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <gm LB = -50 GB = 0.01 SI = 2K 
+       data hash MD5: 2K
+       99 59 A6 06 1C 10 1F 65 E2 F9 DC 50 DA 0A 8E 86>)
+(  13,<2023-09-09 09:25:09.649 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <ls NSP = 146 
+       data hash MD5: 2K
+       7A 95 BA FE 91 20 9E B8 8E F8 62 20 07 CD 38 1A>)
+(  14,<2023-09-09 09:25:12.374 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <ft FT_mod = 6 PKNL = 0 SI = 2K 
+       data hash MD5: 2K
+       07 0D 21 49 30 D0 7B 28 84 20 70 3C 7F 4D 25 81>)
+(  15,<2023-09-09 09:28:05.123 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <pk fgphup PHC0 = -143.2373 PHC1 = -33.05 
+       data hash MD5: 2K
+       E2 4B 8C 96 62 F1 70 55 A1 E9 54 E3 CC B9 14 56>)
+(  16,<2023-09-09 09:28:48.379 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 ABSF1 to 10000.00000>)
+(  17,<2023-09-09 09:28:50.734 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 ABSF2 to -1000.00000>)
+(  18,<2023-09-09 09:28:54.594 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 ABSF1 to 1000.00000>)
+(  19,<2023-09-09 09:28:59.967 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <abs ABSG = 5 
+       data hash MD5: 2K
+       1B 0D 30 AD 8D 09 FC 00 57 21 EB D7 44 29 AD AF>)
+(  20,<2023-09-09 12:19:10.457 +0200>,<labo850>,<RMN850n>,<audit>,<TopSpin 4.1.4>,
+      <user comment:
+       TITLE=93Nb RbNb2O5F
+       echo CT (RF=25kHz) top
+       l6=1 periode
+       MAS 100kHz
+       d1 = 0.5s
+       
+       RF=25kHz
+       
+       sonde 0.7mm - mode doubleTITLE_END
+       data hash MD5: 2K
+       1B 0D 30 AD 8D 09 FC 00 57 21 EB D7 44 29 AD AF>)
+(  21,<2023-09-09 12:19:18.407 +0200>,<labo850>,<RMN850n>,<audit>,<TopSpin 4.1.4>,
+      <user comment:
+       TITLE=93Nb RbNb2O5F
+       echo CT (RF=25kHz) top
+       l6=1 periode
+       MAS 100kHz
+       d1 = 0.5s
+       
+       sonde 0.7mm - mode doubleTITLE_END
+       data hash MD5: 2K
+       1B 0D 30 AD 8D 09 FC 00 57 21 EB D7 44 29 AD AF>)
+##END=
+
+$$ hash MD5
+$$ 0A 53 7F 60 1D D0 3A 3E 3A C3 C4 D5 2B 70 71 6B

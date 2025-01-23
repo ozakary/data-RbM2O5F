@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= Ouail Zakary
+$$ D:/Spectres_reconstruits_par_Dmfit/87Rb_RbM2O5F_CEMHTI_08-02-2023/RbTa2O5F/160/pdata/57/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-03-09 19:14:09.787 +0100>,<Ouail Zakary>,<SC-I3M-F023>,<mvrow>,<TopSpin 4.1.4>,
+      <rsr 57 from
+       1 160 "RbTa2O5F" "D:/Spectres_reconstruits_par_Dmfit/87Rb_RbM2O5F_CEMHTI_08-02-2023"
+       data hash MD5: 2K
+       B5 A0 F8 B0 F2 AE 18 C0 61 77 3B 9A D8 B6 F9 00>)
+##END=
+
+$$ hash MD5
+$$ 92 56 A1 86 C2 F7 B1 42 AF 1E 14 2D 3A 39 F0 1D

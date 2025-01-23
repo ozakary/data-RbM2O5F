@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/RbTa2O5F/5/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-04-06 13:00:58.603 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbTa2O5F/5/audita.txt
+(   2,<2022-04-06 13:01:05.568 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <
+       started at 2022-04-06 13:00:58.612 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2022-04-06 13:01:05.565 +0000
+       configuration hash MD5:
+       67 92 C5 CD 8B 16 97 61 B8 18 A7 C8 D0 D6 4D A6>)
+(   3,<2022-04-06 15:00:32.314 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   4,<2022-04-06 15:00:32.364 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   5,<2022-04-06 13:01:12.653 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <raw data deleted by zg -scaleByRg>)
+(   6,<2022-04-06 13:01:12.654 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(   7,<2022-04-06 13:18:45.439 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance NEO 850WB' (RMN850n) by user 'labo850'
+       on data set with UUID 'a2badb74-b5a9-11ec-88a5-0013952bf79f'
+       started at 2022-04-06 13:01:12.663 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2022-04-06 13:18:45.437 +0000
+       configuration hash MD5:
+       67 92 C5 CD 8B 16 97 61 B8 18 A7 C8 D0 D6 4D A6
+       double data hash MD5: 20000
+       E2 60 04 1D 3A 27 C5 86 80 FE 88 00 A6 06 A0 4A>)
+##END=
+
+$$ hash MD5
+$$ 67 47 55 FD 5A 80 3E 8B FA 41 AF 88 4D BA 80 EA

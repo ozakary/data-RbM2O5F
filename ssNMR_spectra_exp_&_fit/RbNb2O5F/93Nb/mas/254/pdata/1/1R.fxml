@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NMRFit>
+<FitParameters>
+	<timestamp>2023-09-13T16:08:00Z</timestamp>
+	<DMFitVersion>20230120</DMFitVersion>
+	<FitMode>0</FitMode>
+	<FitModeAsc>Fit 1D</FitModeAsc>
+	<Sdev>9467.748683</Sdev>
+	<ComputeParam>
+		<ShapeSize>4096</ShapeSize>
+		<npasab>64</npasab>
+		<ssbMax>10</ssbMax>
+		<QuadStep>5</QuadStep>
+		<EtaStep>5</EtaStep>
+		<CptThreshold>99</CptThreshold>
+		<CSAStep>15</CSAStep>
+		<MinCSAStep>50</MinCSAStep>
+		<GaussMult>0.75</GaussMult>
+		<SWMult>4</SWMult>
+	</ComputeParam>
+	<Dimension>F2
+		<nucleus>93Nb</nucleus>
+		<frequency>208.118019</frequency>
+		<BaseLine>
+			<BLmode>Polynomial</BLmode>
+			<Baseline0>22.87655071</Baseline0>
+			<Baseline1>8.372046668e-05</Baseline1>
+			<Baseline2>0</Baseline2>
+			<Baseline3>0</Baseline3>
+		</BaseLine>
+		<spinrate>100000</spinrate>
+		<line>
+			<ModelName>Czjzek</ModelName>
+			<amp Fit="*"  Error="5769.76304">1194358.153</amp>
+			<pos Fit="*"  Unit="ppm" Error="0.42243">-1048.796369</pos>
+			<gl>0</gl>
+			<tr>1</tr>
+			<em_au>-17953.16</em_au>
+			<lb  Unit="ppm">-86.26432292</lb>
+			<CQ Fit="*" >55067.38</CQ>
+			<d>5</d>
+			<sCZ_CQ>27533.69</sCZ_CQ>
+			<CQ_max>55067.38</CQ_max>
+		</line>
+	</Dimension>
+</FitParameters>
+<GraphParameters>
+	<Dimensions>
+		<X>
+			<min>267243.9319</min>
+			<max>-732267.7868</max>
+			<tic>52029.50476</tic>
+		</X>
+		<Amp>
+			<min>-38948.62778</min>
+			<max>734142.5719</max>
+		</Amp>
+	</Dimensions>
+</GraphParameters>
+<DataFile>
+	<FileName>1r</FileName>
+	<FileTitle>93Nb RbNb2O5F</FileTitle>
+</DataFile>
+</NMRFit>

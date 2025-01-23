@@ -1,0 +1,29 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/254/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-09-08 21:09:09.828 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <new/edc EXPNO=254 PROCNO=1>)
+(   2,<2023-09-08 21:09:17.425 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter 1 L 6 to 1>)
+(   3,<2023-09-08 21:09:27.577 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 D10 to 0>)
+(   4,<2023-09-08 21:09:30.524 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 D10 to 0.000008000>)
+(   5,<2023-09-08 21:26:18.120 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   6,<2023-09-08 23:43:06.543 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 850WB' (RMN850n) by user 'labo850'
+       on data set with UUID '58fe07d4-4e8e-11ee-a100-0013952bf79f'
+       started at 2023-09-08 21:26:18.128 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2023-09-08 23:43:06.539 +0000
+       configuration hash MD5:
+       5E 96 7D FC F8 61 A6 4B CD 6F 7C D7 D6 35 34 D6
+       double data hash MD5: 1K
+       57 88 B7 C8 8E DA B2 E3 38 B8 90 64 78 EE 71 61>)
+##END=
+
+$$ hash MD5
+$$ 5F 38 4A 56 A0 25 45 40 6C E9 6C 97 AA A7 15 22

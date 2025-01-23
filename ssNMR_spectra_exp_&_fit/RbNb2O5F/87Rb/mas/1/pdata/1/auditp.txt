@@ -1,0 +1,97 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-04-06 13:25:57.299 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/1/audita.txt
+(   2,<2022-04-06 13:26:01.761 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <
+       started at 2022-04-06 13:25:57.309 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2022-04-06 13:26:01.758 +0000
+       configuration hash MD5:
+       67 92 C5 CD 8B 16 97 61 B8 18 A7 C8 D0 D6 4D A6>)
+(   3,<2022-04-06 15:25:25.248 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   4,<2022-04-06 15:25:25.299 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   5,<2022-04-06 13:26:05.683 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <raw data deleted by zg -scaleByRg>)
+(   6,<2022-04-06 13:26:05.684 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(   7,<2022-04-06 13:26:34.314 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance NEO 850WB' (RMN850n) by user 'labo850'
+       on data set with UUID '1ca46d58-b5ad-11ec-92e4-0013952bf79f'
+       started at 2022-04-06 13:26:05.693 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'halt' at 2022-04-06 13:26:34.311 +0000
+       configuration hash MD5:
+       67 92 C5 CD 8B 16 97 61 B8 18 A7 C8 D0 D6 4D A6
+       double data hash MD5: 20000
+       08 B3 DC 5E 30 90 AB 31 FC A1 B8 08 81 59 38 58>)
+(   8,<2022-04-06 15:26:03.472 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   9,<2022-04-06 15:26:03.525 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(  10,<2022-04-06 13:26:43.923 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <raw data deleted by zg -scaleByRg>)
+(  11,<2022-04-06 13:26:43.925 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(  12,<2022-04-06 13:26:54.336 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <
+       started at 2022-04-06 13:26:43.934 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2022-04-06 13:26:54.333 +0000
+       configuration hash MD5:
+       67 92 C5 CD 8B 16 97 61 B8 18 A7 C8 D0 D6 4D A6>)
+(  13,<2022-04-06 15:26:21.551 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(  14,<2022-04-06 15:26:21.607 +0200>,<labo850>,<RMN850n>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(  15,<2022-04-06 13:27:01.994 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <raw data deleted by zg -scaleByRg>)
+(  16,<2022-04-06 13:27:01.996 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(  17,<2022-04-06 15:32:11.670 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       0C 87 18 13 C6 AA C8 D4 12 89 89 82 2E 4A EF 23>)
+(  18,<2022-04-06 15:35:40.869 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       3F DB C9 24 A9 6D 59 39 CD 7F 89 B0 5C D0 7B 89>)
+(  19,<2022-04-06 15:37:34.133 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       3F DB C9 24 A9 6D 59 39 CD 7F 89 B0 5C D0 7B 89>)
+(  20,<2022-04-06 15:40:26.933 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       DB 11 4D 0D 2B 17 68 B9 A7 A9 F9 34 66 02 4A C9>)
+(  21,<2022-04-06 15:41:48.620 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       A4 6A 9B A2 B8 CB 5C EE 24 9C 0E FC 77 7F F1 1D>)
+(  22,<2022-04-06 15:51:54.770 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       bc TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       55 FE 72 0C B4 24 32 FA 8A 13 43 38 57 54 5B 1B>)
+(  23,<2022-04-06 15:52:07.195 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <efp LB = 250 FT_mod = 6 PKNL = 1 SI = 4K PHC0 = -2279.235 PHC1 = -2770.8 
+       data hash MD5: 4K
+       76 EC 66 26 21 65 E3 54 78 F2 4E AE 00 33 AE 52>)
+(  24,<2022-04-06 15:53:17.637 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 250 FT_mod = 6 PKNL = 1 PHC0 = -2279.235 PHC1 = -2770.8 TDeff = 2000 SI = 4K 
+       data hash MD5: 4K
+       28 15 B6 05 C8 3B 4C 02 11 29 F6 6B BE 28 A0 BA>)
+##END=
+
+$$ hash MD5
+$$ E3 6B 80 48 18 9F C1 0A 08 38 FA 7C AE 1F 0A 53

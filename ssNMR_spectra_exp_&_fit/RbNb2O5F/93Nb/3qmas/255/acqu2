@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ 2023-09-09 12:21:10.464 +0200  labo850@RMN850n
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/255/acqu2
+$$ process /opt/topspin4.1.4/prog/mod/edparproc
+##$ACQT0= 0
+##$BF1= 208.118426
+##$FnILOOP= 0
+##$FnMODE= 4
+##$NUC1= <93Nb>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= -230163.33
+##$ProjAngle= 0
+##$SFO1= 207.88826267
+##$SW= 481.027638192057
+##$SW_h= 100000
+##$TD= 40
+##END=

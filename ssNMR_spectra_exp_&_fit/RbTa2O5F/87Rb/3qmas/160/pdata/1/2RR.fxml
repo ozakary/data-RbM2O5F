@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NMRFit>
+<FitParameters>
+	<timestamp>2023-04-18T12:22:12Z</timestamp>
+	<DMFitVersion>20230120</DMFitVersion>
+	<FitMode>2</FitMode>
+	<FitModeAsc>MQMAS</FitModeAsc>
+	<Sdev>33735.05304</Sdev>
+	<ComputeParam>
+		<ShapeSize>4096</ShapeSize>
+		<npasab>64</npasab>
+		<ssbMax>10</ssbMax>
+		<QuadStep>5</QuadStep>
+		<EtaStep>5</EtaStep>
+		<CptThreshold>99</CptThreshold>
+		<CSAStep>15</CSAStep>
+		<MinCSAStep>50</MinCSAStep>
+		<GaussMult>0.75</GaussMult>
+		<SWMult>4</SWMult>
+	</ComputeParam>
+	<Dimension>F2
+		<nucleus>87Rb</nucleus>
+		<frequency>278.2206566</frequency>
+		<BaseLine>
+			<BLmode>Polynomial</BLmode>
+			<Baseline0 Fit="*"  Error="7813.01899">-6027.276864</Baseline0>
+			<Baseline1 Fit="*"  Error="1.07573">-0.381840514</Baseline1>
+			<Baseline2 Fit="*"  Error="0.00005">4.130129888e-06</Baseline2>
+			<Baseline3 Fit="*" >4.150369543e-10</Baseline3>
+		</BaseLine>
+		<spinrate>29984.69</spinrate>
+		<line>
+			<ModelName>CzSimple</ModelName>
+			<amp>29834140.71</amp>
+			<pos  Unit="ppm">-76.50770825</pos>
+			<wid  Unit="ppm">0.8200007518</wid>
+			<gl>0.5</gl>
+			<dCS  Unit="ppm">13.48</dCS>
+			<em_au>-2500</em_au>
+			<lb  Unit="ppm">-16.31111705</lb>
+			<CQ>1990.83</CQ>
+			<d>5</d>
+			<sCZ_CQ>995.415</sCZ_CQ>
+			<CQ_max>1990.83</CQ_max>
+		</line>
+	</Dimension>
+</FitParameters>
+<GraphParameters>
+	<Dimensions>
+		<Y>
+			<min>-63063.34883</min>
+			<max>-105105.5814</max>
+			<tic>5255.279069</tic>
+		</Y>
+		<X>
+			<min>-16693.2394</min>
+			<max>-27822.06566</max>
+			<tic>1391.103283</tic>
+		</X>
+		<Amp>
+			<min>-12917.55293</min>
+			<max>122632.3227</max>
+		</Amp>
+	</Dimensions>
+	<DiagonalSlope>1</DiagonalSlope>
+	<LevelDiv>1.350000024</LevelDiv>
+	<nLevels>10</nLevels>
+	<PlotStyle>2</PlotStyle>
+</GraphParameters>
+<DataFile>
+	<FileName>2rr</FileName>
+	<FileTitle>3Qzf MAS 30kHz / 1 swh=60</FileTitle>
+</DataFile>
+</NMRFit>

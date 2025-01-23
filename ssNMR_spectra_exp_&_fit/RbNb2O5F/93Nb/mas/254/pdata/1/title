@@ -1,0 +1,7 @@
+93Nb RbNb2O5F
+echo CT (RF=25kHz) top
+l6=1 periode
+MAS 100kHz
+d1 = 0.5s
+
+sonde 0.7mm - mode double

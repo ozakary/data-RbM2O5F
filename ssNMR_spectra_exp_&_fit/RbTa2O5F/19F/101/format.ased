@@ -1,0 +1,235 @@
+#*******************************************************************
+#
+# $Source:$
+#
+# Copyright (c) 1995 - 2008
+# BRUKER BioSpin GmbH
+# D-76287 Rheinstetten, Germany
+#
+# All Rights Reserved
+#
+#
+# $Id:$
+#*******************************************************************
+EDIT_PAR COMMAND FILE
+
+DI_MODE         LONG
+ED_ENTRY        ACQU
+ORDER           FILE
+
+
+HEADER		"====== General ======"
+NAME		PULPROG
+END
+NAME		TD
+END
+NAME		SW
+END
+T_NAME		SWH
+		TYPE	R32
+		CLASS	ACQU
+		SUBRANGE 0.0 1e38
+		REL	"SWH=SW*SFO1"
+		INV_REL "SW=SWH/SFO1"
+		UNIT	"Hz"
+		FORMAT	"%14.2f Hz"
+		TEXT	"sweep width in acquisition direction"
+END
+T_NAME          AQ
+		TYPE	R32
+		CLASS	ACQU
+		SUBRANGE 0.0 1e38
+		REL	"AQ=aqcalc(SW,SFO1,TD,DIGTYP,FnMODE)"
+		INV_REL	"TD=tdcalc(SW,SFO1,1.0e6*AQ,DIGTYP,FnMODE)"
+		UNIT	"sec"
+		FORMAT	"%14.7f sec"
+                TEXT	"acquisition time"
+END
+NAME		RG
+END
+T_NAME          DW
+		TYPE	R32
+		CLASS	ACQU
+		SUBRANGE 0.0 1e38
+		REL	"DW=1/(2*SW*SFO1)"
+		INV_REL	"SW=1000000/(2*(0.005+DW)*SFO1)"
+		UNIT	"usec"
+		FORMAT	"%14.3f usec"
+		TEXT	"dwell time "
+END
+NAME		DE
+		FORMAT	"%14.2f usec"
+END
+T_NAME		GRPDLY
+		TYPE	R64
+		SUBRANGE 0 1e38
+		CLASS	ACQU
+		REL	"GRPDLY=GRPDLY"
+		INV_REL	"GRPDLY=GRPDLY"				
+		UNIT	"no"
+		TEXT	"group delay of digital filter"
+		FORMAT	"%14.0f"
+		NONEDIT
+END
+T_NAME		CNST31
+TYPE	R32
+CLASS	ACQU
+SUBRANGE -1e38 1e38
+REL	"CNST31=CNST[31]"
+INV_REL	"CNST[31]=CNST31"
+FORMAT	"%14.7f"
+TEXT	" "
+END
+T_NAME		D1
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1e38
+REL	"D1=D[1]"
+INV_REL	"D[1]=D1"
+UNIT	"sec"
+FORMAT	"%14.9f sec"
+		TEXT		"relaxation delay; 1-5 * T1"
+END
+T_NAME		d6
+		TYPE	R32
+		SUBRANGE 0.0 1e8
+		CLASS	ACQU
+		REL	"d6=(l0*l26+l6)*(1s/cnst31)-(p5/2)"
+		INV_REL	"D[0]=d6"
+		UNIT	"sec"
+		TEXT	"d6=(l0*l26+l6)*(1s/cnst31)-(p5/2)"
+		FORMAT	"%14.10f sec"
+		NONEDIT
+END
+T_NAME		d7
+		TYPE	R32
+		SUBRANGE 0.0 1e8
+		CLASS	ACQU
+		REL	"d7=d6-l16*(1s/cnst31)-d10"
+		INV_REL	"D[0]=d7"
+		UNIT	"sec"
+		TEXT	"d7=d6-l16*(1s/cnst31)-d10"
+		FORMAT	"%14.10f sec"
+		NONEDIT
+END
+T_NAME		D10
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1e38
+REL	"D10=D[10]"
+INV_REL	"D[10]=D10"
+UNIT	"sec"
+FORMAT	"%14.9f sec"
+TEXT	"delay 10"
+END
+NAME		DS
+		TEXT	"number of dummy scans"
+END
+T_NAME		l0
+		TYPE	I32
+		SUBRANGE 0 2147483647
+		CLASS	ACQU
+		REL	"l0=0"
+		INV_REL	"D[0]=l0"
+		UNIT	"no"
+		TEXT	"l0=0"
+		FORMAT	"%14d"
+		NONEDIT
+END
+T_NAME		L6
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1e38
+REL	"L6=L[6]"
+INV_REL	"L[6]=L6"
+FORMAT	"%14.0f"
+TEXT	"loop counter 6"
+END
+T_NAME		L16
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1e38
+REL	"L16=L[16]"
+INV_REL	"L[16]=L16"
+FORMAT	"%14.0f"
+TEXT	"loop counter 16"
+END
+T_NAME		L26
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1e38
+REL	"L26=L[26]"
+INV_REL	"L[26]=L26"
+FORMAT	"%14.0f"
+TEXT	"loop counter 26"
+END
+NAME		NS
+		TEXT	"scans to execute"
+END
+NAME		ZGOPTNS
+		TEXT 	"options for zg"
+END
+HEADER		"======== CHANNEL f1 ========"
+NAME		SFO1
+FORMAT	"%14.7f MHz"
+TEXT	"frequency of ch. 1"
+END
+NAME		O1
+FORMAT	"%14.2f Hz"
+TEXT	"frequency of ch. 1"
+END
+T_NAME		O1P
+TYPE	R64
+CLASS	ACQU
+SUBRANGE -1e38 1e38
+REL	"O1P=O1/BF1"
+INV_REL	"O1=O1P*BF1"
+UNIT	"ppm"
+FORMAT	"%14.3f ppm"
+TEXT	"frequency of ch. 1"
+END
+NAME		NUC1
+NONEDIT
+TEXT	"nucleus for channel 1"
+END
+T_NAME		P1
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0.0 1.0e10
+REL	"P1=P[1]"
+INV_REL	"P[1]=P1"
+UNIT	"usec"
+FORMAT	"%14.3f usec"
+		TEXT		"f1 channel -  high power pulse"
+END
+T_NAME		p5
+		TYPE	R32
+		SUBRANGE -1e38 1e38
+		CLASS	ACQU
+		REL	"p5=2*p1"
+		INV_REL	"D[0]=p5"
+		UNIT	"usec"
+		TEXT	"p5=2*p1"
+		FORMAT	"%14.2f usec"
+		NONEDIT
+END
+T_NAME		PLW1
+TYPE	R32
+CLASS	ACQU
+SUBRANGE 0 710.885
+REL	"PLW1=PLW[1]"
+INV_REL	"PLW[1]=PLW1"
+UNIT	"W"
+FORMAT	"%14.5g W"
+		TEXT		"f1 channel - power level for pulse (default)"
+END
+T_NAME		PLdB1
+TYPE	R32
+CLASS	ACQU
+SUBRANGE -28.618 1000
+REL	"if(PLW[1]>0)PLdB1=-10*log(PLW[1])/LN10;else PLdB1=1000;"
+INV_REL	"PLW[1]=0;if(PLdB1<1000)PLW[1]=pow(10.0,(-PLdB1)/10.0)"
+UNIT	"dB"
+FORMAT	"%14.2f dB"
+TEXT	"power PL1 in dB"
+END

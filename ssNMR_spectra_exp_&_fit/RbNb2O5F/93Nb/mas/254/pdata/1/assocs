@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 3	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ 2023-09-09 09:29:25.461 +0200  labo850@RMN850n
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/254/pdata/1/assocs
+$$ process /opt/topspin4.1.4/prog/mod/dataserver
+##$MULTDISP= </opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/251/pdata/1>
+##END=

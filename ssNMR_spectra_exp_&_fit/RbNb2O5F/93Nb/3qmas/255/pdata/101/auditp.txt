@@ -1,0 +1,68 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ /opt/nmrdata/data/TGIR_Legein.1650/nmr/RbNb2O5F/255/pdata/101/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-09-09 12:21:10.491 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <new/edc EXPNO=255 PROCNO=1>)
+(   2,<2023-09-09 12:21:23.508 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 SWH to 200000.000>)
+(   3,<2023-09-09 12:21:44.169 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 TD to 1024>)
+(   4,<2023-09-09 10:41:22.855 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2023-09-09 10:42:37.907 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <
+       started at 2023-09-09 10:41:22.864 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2023-09-09 10:42:37.906 +0000
+       configuration hash MD5:
+       5E 96 7D FC F8 61 A6 4B CD 6F 7C D7 D6 35 34 D6>)
+(   6,<2023-09-09 10:42:55.439 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg -scaleByRg>)
+(   7,<2023-09-09 10:42:55.441 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   8,<2023-09-09 11:38:15.981 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 850WB' (RMN850n) by user 'labo850'
+       on data set with UUID 'a26b3b48-4efd-11ee-b3f5-0013952bf79f'
+       started at 2023-09-09 10:42:55.449 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2023-09-09 11:38:15.977 +0000
+       configuration hash MD5:
+       5E 96 7D FC F8 61 A6 4B CD 6F 7C D7 D6 35 34 D6
+       double data hash MD5: 1K * 2
+       1D 8D ED C8 6F 89 24 28 85 99 53 09 3B 6C 4D 2F>)
+(   9,<2023-09-09 13:37:46.994 +0200>,<labo850>,<RMN850n>,<sertoint>,<TopSpin 4.1.4>,
+      <sertoint
+       data hash MD5: 1K * 2
+       42 BA EF E6 2F 19 53 73 26 CE EB 9C F6 91 02 60>)
+(  10,<2023-09-09 13:37:54.285 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 NS to 4800>)
+(  11,<2023-09-09 11:38:30.063 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg -scaleByRg>)
+(  12,<2023-09-09 11:38:30.065 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(  13,<2023-09-09 13:38:19.365 +0200>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 DS to 6>)
+(  14,<2023-09-09 11:38:52.644 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <
+       started at 2023-09-09 11:38:30.072 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2023-09-09 11:38:52.641 +0000
+       configuration hash MD5:
+       5E 96 7D FC F8 61 A6 4B CD 6F 7C D7 D6 35 34 D6>)
+(  15,<2023-09-09 11:38:56.018 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg -scaleByRg>)
+(  16,<2023-09-09 11:38:56.020 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(  17,<2023-09-10 11:03:08.265 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       efp 1 LB = 500 FT_mod = 6 PKNL = 1 PHC0 = -1077.34 PHC1 = -360 TDeff = 512 SI = 1K 
+       data hash MD5: 1K
+       9E 13 E1 D8 7D E8 66 87 C4 6A D6 82 67 A9 E5 C4>)
+(  18,<2023-09-10 11:07:05.581 +0200>,<labo850>,<RMN850n>,<proc1d>,<TopSpin 4.1.4>,
+      <bcm 2 0 1024 2.114638e+07 2.293060e+08 -2.876214e-03 -0.000000e+00 -0.000000e+00 
+       data hash MD5: 1K
+       6E C5 D9 09 F5 CF DF 6B 36 EC 19 7B DA AD AF E7>)
+##END=
+
+$$ hash MD5
+$$ 3A A0 0D CE 55 22 D7 AA A5 CB DA 48 2F D5 5E B5

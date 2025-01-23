@@ -1,0 +1,8 @@
+87Rb RbTa2O5F
+one pulse 10 degree
+MAS 50kHz
+d1 = 0.25s
+ns = 4096
+
+T90=3.9us @100W
+sonde 2.5mm - mode double with range coil

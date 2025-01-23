@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= Ouail Zakary
+$$ 2023-03-09 19:12:33.596 +0100  Ouail Zakary@SC-I3M-F023
+$$ D:/Spectres_reconstruits_par_Dmfit/87Rb_RbM2O5F_CEMHTI_08-02-2023/RbTa2O5F/160/pdata/1/assocs
+$$ process C:\Bruker\TopSpin4.1.4\prog\mod\dataserver.exe
+##$MULTDISP= <D:/Spectres_reconstruits_par_Dmfit/87Rb_RbM2O5F_CEMHTI_08-02-2023/RbTa2O5F/161/pdata/1>
+##END=

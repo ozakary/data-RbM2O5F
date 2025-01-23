@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NMRFit>
+<FitParameters>
+	<timestamp>2024-10-18T15:34:42Z</timestamp>
+	<DMFitVersion>20230120</DMFitVersion>
+	<FitMode>0</FitMode>
+	<FitModeAsc>Fit 1D</FitModeAsc>
+	<Sdev>51.88288571</Sdev>
+	<ComputeParam>
+		<ShapeSize>4096</ShapeSize>
+		<npasab>64</npasab>
+		<ssbMax>10</ssbMax>
+		<QuadStep>5</QuadStep>
+		<EtaStep>5</EtaStep>
+		<CptThreshold>99</CptThreshold>
+		<CSAStep>15</CSAStep>
+		<MinCSAStep>50</MinCSAStep>
+		<GaussMult>0.75</GaussMult>
+		<SWMult>4</SWMult>
+	</ComputeParam>
+	<Dimension>F2
+		<nucleus>19F</nucleus>
+		<frequency>800.0718043</frequency>
+		<BaseLine>
+			<BLmode>Polynomial</BLmode>
+			<Baseline0>32.82738624</Baseline0>
+			<Baseline1>0.0002157210724</Baseline1>
+			<Baseline2>0</Baseline2>
+			<Baseline3>0</Baseline3>
+		</BaseLine>
+		<spinrate>55083.1137</spinrate>
+		<line>
+			<ModelName>CSA mas</ModelName>
+			<amp  Error="236.51663">7847.51227</amp>
+			<pos  Unit="ppm" Error="0.14225">-110.1639815</pos>
+			<wid  Unit="ppm" Error="0.11226">10.32255783</wid>
+			<gl>1</gl>
+			<dCS  Unit="ppm" Error="0.89466">-36.04139228</dCS>
+			<etaCS Fit="*" >0</etaCS>
+		</line>
+		<line>
+			<ModelName>CSA mas</ModelName>
+			<amp  Error="261.11678">1855.891854</amp>
+			<pos  Unit="ppm" Error="0.52917">-116.8065674</pos>
+			<wid  Unit="ppm" Error="0.39689">9.905645127</wid>
+			<gl>1</gl>
+			<dCS  Unit="ppm" Error="6.02575">-23.30743264</dCS>
+			<etaCS Fit="*" >0</etaCS>
+		</line>
+	</Dimension>
+</FitParameters>
+<GraphParameters>
+	<Dimensions>
+		<X>
+			<min>40003.59022</min>
+			<max>-200017.9511</max>
+			<tic>40003.59022</tic>
+		</X>
+		<Amp>
+			<min>-283.3735243</min>
+			<max>8696.06612</max>
+		</Amp>
+	</Dimensions>
+</GraphParameters>
+<DataFile>
+	<FileName>1r_bl.1r</FileName>
+	<FileTitle>19F RbTa2O5</FileTitle>
+</DataFile>
+</NMRFit>

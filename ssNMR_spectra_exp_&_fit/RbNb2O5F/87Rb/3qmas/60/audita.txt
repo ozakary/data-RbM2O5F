@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= labo850
+$$ /opt/nmrdata/data/ar_stefanik/nmr/RbNbO5F/60/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-01-30 16:54:21.380 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <new/edc EXPNO=60 PROCNO=1>)
+(   2,<2023-01-30 16:54:39.650 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 O1 to -19696.14>)
+(   3,<2023-01-30 16:54:39.655 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 O1 to -19696.14>)
+(   4,<2023-01-30 16:54:54.366 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 SWH to 60000.000>)
+(   5,<2023-01-30 16:55:16.388 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 NS to 960>)
+(   6,<2023-01-30 16:55:53.198 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F1 TD to 128>)
+(   7,<2023-01-30 16:59:59.417 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 O2 to -78587.38>)
+(   8,<2023-01-30 17:07:22.701 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 NS to 1056>)
+(   9,<2023-01-30 17:07:37.708 +0100>,<labo850>,<RMN850n>,<cprserver>,<TopSpin 4.1.4>,
+      <changed parameter F2 NS to 1152>)
+(  10,<2023-01-30 16:25:13.625 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(  11,<2023-01-31 06:16:03.700 +0000>,<labo850>,<RMN850n>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 850WB' (RMN850n) by user 'labo850'
+       on data set with UUID 'ac6e0f90-a0ba-11ed-85af-0013952bf79f'
+       started at 2023-01-30 16:25:13.634 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2023-01-31 06:16:03.696 +0000
+       configuration hash MD5:
+       E9 2C 64 02 D6 83 2E F8 80 1B B2 DB 11 2E 8D FC
+       double data hash MD5: 800 * 128
+       4D 54 78 62 76 84 B0 93 41 BD 52 77 E2 28 BB 25>)
+(  12,<2023-01-31 07:14:38.821 +0100>,<labo850>,<RMN850n>,<sertoint>,<TopSpin 4.1.4>,
+      <sertoint
+       data hash MD5: 800 * 128
+       4C B8 ED FC 7A 29 82 21 3F 68 1E EC 8C 1D 75 1B>)
+##END=
+
+$$ hash MD5
+$$ 07 3E 42 17 BB EE 5F 35 58 A3 32 E0 B2 D5 4B 08
