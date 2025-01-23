@@ -1,0 +1,1 @@
+# Experimental (dark blue) and fitted (dashed red) $^{87}$Rb MAS (25 kHz) NMR (7 T) spectra of RbF fluoride. The insets represent zooms of the central transition (top-left) and the three first-order satellite transitions (top-right). The individual resonance used for the fitting model (teal) and the model difference (grey) are shown below the spectra.

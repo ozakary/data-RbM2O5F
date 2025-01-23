@@ -1,0 +1,1 @@
+# The 87Rb MASand 3QMAS, 93Nb CTMAS and 3QMAS NMR spectra of RbNb2O5F (a, c, d, and f) and RbTa2O5F (b and e) were first plotted by running the Python scripts, exported, arranged in "Inkscape", and then saved as a .pdf file.

@@ -1,0 +1,1 @@
+# Experimental $^{87}$Rb $\delta_{iso}$ as a function of computed $\sigma_{iso}$ for the compounds listed in \textbf{Table~\ref{tab:table9}}. The linear-least-squares fit (dark blue line), the linear model equation and the \textit{R}-squared value are illustrated in the panel. The data points are defined in the legend.

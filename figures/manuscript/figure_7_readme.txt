@@ -1,0 +1,1 @@
+# The probability distributions of 87Rb from RbNb2O5F (a, d), 87Rb from RbTa2O5F (c and f), and 93Nb from RbNb2O5F (b and e) were plotted by running the Python scripts, exported, arranged in "Inskscape", and then saved as a .pdf file.

@@ -1,0 +1,1 @@
+# Population distribution of [MO$_{6-x}$F$_{x}$]$^{n-}$ (\textit{a}) and [RbO$_{18-y}$F$_{y}$]$^{m-}$ (\textit{b}) from the $N_{select}\{E_{Ewald}^{(\searrow)}\}$ configurations (dark blue), $N_{select}\{E_{Ewald}^{(\nearrow)}\}$ configurations (teal), random distribution (dark orange), and selected configurations for DFT relaxation (light orange).

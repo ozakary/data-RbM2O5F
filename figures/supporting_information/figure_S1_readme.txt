@@ -1,0 +1,1 @@
+# The 19F linear transformation functions for sigma_iso -> sigma_iso (a for RbNb2O5F and c for RbTa2O5F), and sigma_CSA -> sigma_CSA (b for RbNb2O5F and d for RbTa2O5F) were plotted by running the Python scripts, exported, arranged in "Inskscape", and then saved as a .pdf file.

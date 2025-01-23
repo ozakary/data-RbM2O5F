@@ -1,0 +1,1 @@
+# Perspective view of the average crystal structure of RbNb$_{2}$O$_{5}$F (\textit{a}), first coordination sphere of A (A = $\square^{+}$, Rb$^{+}$), Nb$^{5+}$ cations, and X anions (\textit{b}), and an illustrative view of the subarray $sub$–\{NbX$_{3}$\} (left \textit{c}) rotated 90° around the $\vec{r}$ axis (right \textit{c}). The drawings were created using VESTA.
