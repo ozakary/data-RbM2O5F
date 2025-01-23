@@ -40,8 +40,8 @@ To reproduce the figures and analyze the data, you will need the following softw
 | **Figure** | **Script** | **Dataset** | **Readme** | **Description** |
 |------------|------------|-------------|------------|-----------------|
 | [Figure S1](./supporting_information/figure_S1.pdf) | [Script A](./supporting_information/figure_S1-a_script.py), [Script B](./supporting_information/figure_S1-b_script.py), [Script C](./supporting_information/figure_S1-c_script.py), [Script D](./supporting_information/figure_S1-d_script.py) | [Data A](./supporting_information/figure_S1-a_data.txt), [Data B](./supporting_information/figure_S1-b_data.txt), [Data C](./supporting_information/figure_S1-c_data.txt), [Data D](./supporting_information/figure_S1-d_data.txt) | [Readme](./supporting_information/figure_S1_readme.txt) | [Description](./supporting_information/figure_S1_description.txt) |
-| [Figure S2](./supporting_information/figure_S2.pdf) | N/A | [Data](./supporting_information/figure_S2_data_&_plot.JNB) | [Readme](./supporting_information/figure_S2_readme.txt) | [Description](./supporting_information/figure_S2_description.txt) |
-| [Figure S3](./supporting_information/figure_S3.pdf) | N/A | N/A | [Readme](./supporting_information/figure_S3_readme.txt) | [Description](./supporting_information/figure_S3_description.txt) |
+| [Figure S2](./supporting_information/figure_S2.pdf) | [Script](./supporting_information/figure_S2_script.py) | [Data A](./supporting_information/figure_S2_data.asc) | [Readme](./supporting_information/figure_S2_readme.txt) | [Description](./supporting_information/figure_S2_description.txt) |
+| [Figure S3](./supporting_information/figure_S3.pdf) | [Script](./supporting_information/figure_S3_script.py) | [Data A](./supporting_information/figure_S3_data.txt) | [Readme](./supporting_information/figure_S3_readme.txt) | [Description](./supporting_information/figure_S3_description.txt) |
 
 ---
 
