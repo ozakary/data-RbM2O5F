@@ -36,11 +36,11 @@ The dataset is divided into two main folders for **RbNb<sub>2</sub>O<sub>5</sub>
      Fit File: [1R.fxml](./RbTa2O5F/19F/101/pdata/1/1R.fxml)
    
    - **<sup>87</sup>Rb Nucleus:**  
-     Path to the MAS NMR spectrum: [./RbTa2O5F/87Rb](./RbTa2O5F/87Rb/mas_nmr)  
-     The corresponding fit file: [1R.fxml](./RbTa2O5F/87Rb/mas_nmr/5/pdata/1/1R.fxml)
+     Path to the MAS NMR spectrum: [./RbTa2O5F/87Rb](./RbTa2O5F/87Rb/mas)  
+     The corresponding fit file: [1R.fxml](./RbTa2O5F/87Rb/mas/5/pdata/1/1R.fxml)
 
-     Path to the 3QMAS NMR spectrum: [./RbTa2O5F/87Rb](./RbTa2O5F/87Rb/3qmas_nmr)  
-     The corresponding fit file: [2RR.fxml](./RbTa2O5F/87Rb/3qmas_nmr/160/pdata/1/2RR.fxml)
+     Path to the 3QMAS NMR spectrum: [./RbTa2O5F/87Rb](./RbTa2O5F/87Rb/3qmas)  
+     The corresponding fit file: [2RR.fxml](./RbTa2O5F/87Rb/3qmas/160/pdata/1/2RR.fxml)
 
 ### Methods
 **<sup>19</sup>F (I = 1/2) MAS NMR** spectra were recorded with a Bruker Avance III spectrometer functioning at 20.0 T (Larmor frequency of 800 MHz) using a 1.3 mm CP-MAS probe-head, the spinning frequency was set to 46 kHz. The Hahn echo sequence was used with an interpulse delay of one rotor period and a recycle delay of 300 s and 30 s for RbNb2O5F and RbTa2O5F, respectively. The 90° pulse was set to 1.56 µs (RF field of 160 kHz) and 1.25 µs (RF field of 200 kHz) for RbNb2O5F and RbTa2O5F, respectively.
