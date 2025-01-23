@@ -11,19 +11,19 @@ This repository contains datasets from DFT calculations performed to optimize th
 
 The dataset includes both **inputs** (located in the folders: `INPUT_files`) and **outputs** (located in the folders: `OUTPUT_files`) for the following calculations:
 
-1. **Atomic Position Optimization (APO) of Unit Cell Tested Configurations n°1-20:**  
+1. **Atomic Position Optimization (APO) of Unit Cell Final Configurations n°2-4, 8, and 9 for RbNb<sub>2</sub>O<sub>5</sub>F and n°2, 4, and 7-9 for RbTa<sub>2</sub>O<sub>5</sub>F:**  
    **Folder:** `./RbNb2O5F/uc-APO` and `./RbTa2O5F/uc-APO`
 
-2. **NMR Parameter Calculations for the Unit Cell Tested Configurations n°1-20:**  
+2. **NMR Parameter Calculations for the Unit Cell Final Configurations n°2-4, 8, and 9 for RbNb<sub>2</sub>O<sub>5</sub>F and n°2, 4, and 7-9 for RbTa<sub>2</sub>O<sub>5</sub>F:**  
    **Folder:** `./RbNb2O5F/uc-APO_NMR` and `./RbTa2O5F/uc-APO_NMR`
 
-3. **Atomic Position Optimization (APO) of 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**  
+3. **Atomic Position Optimization (APO) of 2 × 2 × 2 Supercell Final Configurations n°2-4, 8, and 9 for RbNb<sub>2</sub>O<sub>5</sub>F and n°2, 4, and 7-9 for RbTa<sub>2</sub>O<sub>5</sub>F:**  
    **Folder:** `./RbNb2O5F/sc-APO` and `./RbTa2O5F/sc-APO`
 
-4. **NMR Parameter Calculations for the 2 × 2 × 2 Supercell Tested Cofigurations n°1-10:**  
+4. **NMR Parameter Calculations for the 2 × 2 × 2 Supercell Final Configurations n°2-4, 8, and 9 for RbNb<sub>2</sub>O<sub>5</sub>F and n°2, 4, and 7-9 for RbTa<sub>2</sub>O<sub>5</sub>F:**  
    **Folder:** `./RbNb2O5F/sc-APO_NMR` and `./RbTa2O5F/sc-APO_NMR`
    
-The `.slurm` files (named `<name>_jv_oz.slurm`, where `name` corresponds to each calculation) and the `.log` files (named `<name>_vasp_run.log`) can be found in the folders [RbNb<sub>2</sub>O<sub>5</sub>F](./RbNb2O5F) and [RbTa<sub>2</sub>O<sub>5</sub>F](./RbTa2O5F).
+The `.slurm` files (named `<name>_jv_oz.slurm`, where `name` corresponds to each calculation) and the `.log` files (named `<name>_vasp_run.log`) can be found in the folders `./RbNb2O5F/uc-APO`, `./RbTa2O5F/uc-APO`, `./RbNb2O5F/uc-APO_NMR`, and `./RbTa2O5F/uc-APO_NMR`.
 
 ## Methods
 
@@ -59,28 +59,29 @@ In this study, NMR chemical shift values (*δ*<sub>iso</sub>) for **<sup>93</sup
 
 ## Directory Structure
 
-The following directories contain the datasets:
+As this data requires more storage capacity (2GB allowed on the Product "GitHub Free", the data was uploaded to the database Figshare and can be found at DOI :
+
+The directory structure for this data is:
 
 - **RbNb<sub>2</sub>O<sub>5</sub>F Datasets:**
-  - [uc-APO INPUT files](./RbNb2O5F/uc-APO/INPUT_files)
-  - [uc-APO OUTPUT files](./RbNb2O5F/uc-APO/OUTPUT_files)
-  - [uc-APO_NMR INPUT files](./RbNb2O5F/uc-APO_NMR/INPUT_files)
-  - [uc-APO_NMR OUTPUT files](./RbNb2O5F/uc-APO_NMR/OUTPUT_files)
-  - [sc-APO INPUT files](./RbNb2O5F/sc-APO/INPUT_files)
-  - [sc-APO OUTPUT files](./RbNb2O5F/sc-APO/OUTPUT_files)
-  - [sc-APO_NMR INPUT files](./RbNb2O5F/sc-APO_NMR/INPUT_files)
-  - [sc-APO_NMR OUTPUT files](./RbNb2O5F/sc-APO_NMR/OUTPUT_files)
+  - uc-APO INPUT files: `./RbNb2O5F/uc-APO/configuration_<number>/INPUT_files` 
+  - uc-APO OUTPUT files: `./RbNb2O5F/uc-APO/configuration_<number>/OUTPUT_files` 
+  - uc-APO_NMR INPUT files: `./RbNb2O5F/uc-APO_NMR/configuration_<number>/INPUT_files` 
+  - uc-APO_NMR OUTPUT files: `./RbNb2O5F/uc-APO_NMR/configuration_<number>/OUTPUT_files` 
+  - sc-APO INPUT files: `./RbNb2O5F/sc-APO/configuration_<number>/INPUT_files` 
+  - sc-APO OUTPUT files: `./RbNb2O5F/sc-APO/configuration_<number>/OUTPUT_files` 
+  - sc-APO_NMR INPUT files: `./RbNb2O5F/sc-APO_NMR/configuration_<number>/INPUT_files` 
+  - sc-APO_NMR OUTPUT files: `./RbNb2O5F/sc-APO_NMR/configuration_<number>/OUTPUT_files` 
 
 - **RbTa<sub>2</sub>O<sub>5</sub>F Datasets:**
-  - [uc-APO INPUT files](./RbTa2O5F/uc-APO/INPUT_files)
-  - [uc-APO OUTPUT files](./RbTa2O5F/uc-APO/OUTPUT_files)
-  - [uc-APO_NMR INPUT files](./RbTa2O5F/uc-APO_NMR/INPUT_files)
-  - [uc-APO_NMR OUTPUT files](./RbTa2O5F/uc-APO_NMR/OUTPUT_files)
-  - [sc-APO INPUT files](./RbTa2O5F/sc-APO/INPUT_files)
-  - [sc-APO OUTPUT files](./RbTa2O5F/sc-APO/OUTPUT_files)
-  - [sc-APO_NMR INPUT files](./RbTa2O5F/sc-APO_NMR/INPUT_files)
-  - [sc-APO_NMR OUTPUT files](./RbTa2O5F/sc-APO_NMR/OUTPUT_files)
-
+  - uc-APO INPUT files: `./RbTa2O5F/uc-APO/configuration_<number>/INPUT_files` 
+  - uc-APO OUTPUT files: `./RbTa2O5F/uc-APO/configuration_<number>/OUTPUT_files` 
+  - uc-APO_NMR INPUT files: `./RbTa2O5F/uc-APO_NMR/configuration_<number>/INPUT_files` 
+  - uc-APO_NMR OUTPUT files: `./RbTa2O5F/uc-APO_NMR/configuration_<number>/OUTPUT_files` 
+  - sc-APO INPUT files: `./RbTa2O5F/sc-APO/configuration_<number>/INPUT_files` 
+  - sc-APO OUTPUT files: `./RbTa2O5F/sc-APO/configuration_<number>/OUTPUT_files` 
+  - sc-APO_NMR INPUT files: `./RbTa2O5F/sc-APO_NMR/configuration_<number>/INPUT_files` 
+  - sc-APO_NMR OUTPUT files: `./RbTa2O5F/sc-APO_NMR/configuration_<number>/OUTPUT_files` 
 ## Requirements
 
 The calculations in this folder were performed on the **IMMM cluster** in Le Mans Université using the **charger (node with 48 CPUs and 192Go memory)**. To run the calculations in this folder, you will need:
