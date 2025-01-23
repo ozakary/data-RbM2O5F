@@ -81,20 +81,6 @@ python3 code_concatinate_NbX6_l.py
 python3 code_concatinate_NbX6_h.py
 ```
 
-### Visualization and Analysis
-
-1. Plot Ewald energy distribution:
-```bash
-python3 Ewald_energy_dist.py
-```
-This generates `plot_ewald_dist.pdf` showing the distribution of Ewald energies vs. structure count.
-
-2. Plot octahedral population distribution:
-```bash
-python3 prob_dist_NbX6.py
-```
-This script generates probability distributions for [NbO<sub>6-x</sub>F<sub>x</sub>]<sup>n-</sup> populations, comparing generated configurations with experimental data.
-
 ### Analysis of [RbO<sub>18-y</sub>F<sub>y</sub>]<sup>m-</sup> Populations
 
 The same procedure used for [NbO<sub>6-x</sub>F<sub>x</sub>]<sup>n-</sup> analysis is applied to analyze [RbO<sub>18-y</sub>F<sub>y</sub>]<sup>m-</sup> populations, excluding the Ewald energy distribution plot.
@@ -112,8 +98,6 @@ The same procedure used for [NbO<sub>6-x</sub>F<sub>x</sub>]<sup>n-</sup> analys
 │   ├── [Rb_config-2 through Rb_config-5]/
 │   ├── concatenated_configs_NbX6_l.csv
 │   └── concatenated_configs_NbX6_h.csv
-├── plot_ewald_dist.pdf
-└── [other generated plots]
 ```
 ---
 
