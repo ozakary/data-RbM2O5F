@@ -17,18 +17,18 @@ The dataset is divided into two main folders for **RbNb<sub>2</sub>O<sub>5</sub>
      Fit File: [1R.fxml](./RbNb2O5F/19F/103/pdata/1/1R.fxml)
    
    - **<sup>87</sup>Rb Nucleus:**  
-     Path to the MAS NMR spectrum: [./RbNb2O5F/87Rb/mas_nmr](./RbNb2O5F/87Rb/mas_nmr)  
-     The corresponding fit file: [1R.fxml](./RbNb2O5F/87Rb/mas_nmr/1/pdata/1/1R.fxml)
+     Path to the MAS NMR spectrum: [./RbNb2O5F/87Rb](./RbNb2O5F/87Rb/mas)  
+     The corresponding fit file: [1R.fxml](./RbNb2O5F/87Rb/mas/1/pdata/1/1R.fxml)
 
-     Path to the 3QMAS NMR spectrum: [./RbNb2O5F/87Rb](./RbNb2O5F/87Rb/3qmas_nmr)  
-     The corresponding fit file: [2RR.fxml](./RbNb2O5F/87Rb/3qmas_nmr/60/pdata/1/2RR.fxml)
+     Path to the 3QMAS NMR spectrum: [./RbNb2O5F/87Rb](./RbNb2O5F/87Rb/3qmas)  
+     The corresponding fit file: [2RR.fxml](./RbNb2O5F/87Rb/3qmas/60/pdata/1/2RR.fxml)
  
    - **<sup>93</sup>Nb Nucleus:**  
-     Path to the MAS NMR spectrum: [./RbNb2O5F/93Nb](./RbNb2O5F/93Nb/mas_nmr)  
-     The corresponding fit file: [1R.fxml](./RbNb2O5F/93Nb/mas_nmr/254/pdata/1/1R.fxml)
+     Path to the MAS NMR spectrum: [./RbNb2O5F/93Nb](./RbNb2O5F/93Nb/mas)  
+     The corresponding fit file: [1R.fxml](./RbNb2O5F/93Nb/mas/254/pdata/1/1R.fxml)
 
-     Path for the 3QMAS NMR spectrum: [./RbNb2O5F/93Nb](./RbNb2O5F/93Nb/3qmas_nmr)  
-     The corresponding fit file: [2RR.fxml](./RbNb2O5F/93Nb/3qmas_nmr/255/pdata/1/2RR.fxml)
+     Path for the 3QMAS NMR spectrum: [./RbNb2O5F/93Nb](./RbNb2O5F/93Nb/3qmas)  
+     The corresponding fit file: [2RR.fxml](./RbNb2O5F/93Nb/3qmas/255/pdata/1/2RR.fxml)
 
 2. **RbTa<sub>2</sub>O<sub>5</sub>F**
    - **<sup>19</sup>F Nucleus:**  
