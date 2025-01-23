@@ -1,8 +1,9 @@
 # Solid-State Nuclear Magnetic Resonance (ssNMR) Spectroscopy of RbNb<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta)
-Author: Ouail Zakary  
-ORCID: [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
-E-mail: [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
-Website: [Ouail Zakary - webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)
+**Author:** Ouail Zakary  
+**ORCID:** [0000-0002-7793-3306](https://orcid.org/0000-0002-7793-3306)  
+**E-mail:** [Ouail.Zakary@oulu.fi](mailto:Ouail.Zakary@oulu.fi)  
+**Website:** [Ouail Zakary - webpage](https://cc.oulu.fi/~nmrwww/members/Ouail_Zakary.html)  
+**Personal Website:** [Ouail Zakary - personal webpage](https://ozakary.github.io/)
 
 This folder contains the solid-state nuclear magnetic resonance (ssNMR) spectroscopy data for the compounds **RbNb<sub>2</sub>O<sub>5</sub>F** and **RbTa<sub>2</sub>O<sub>5</sub>F**, recorded for the nuclei **<sup>19</sup>F**, **<sup>87</sup>Rb**, and **<sup>93</sup>Nb**.
 
