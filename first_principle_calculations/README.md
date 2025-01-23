@@ -59,7 +59,7 @@ In this study, NMR chemical shift values (*δ*<sub>iso</sub>) for **<sup>93</sup
 
 ## Directory Structure
 
-As this data requires more storage capacity than the 2GB allowed on **GitHub Free**, it has been uploaded to Figshare and can be accessed using the following DOI:
+As this data requires more storage capacity than the 2GB allowed on **GitHub Free**, it has been uploaded to Figshare and can be accessed using the following [link](https://figshare.com/s/d46c45bf42e6dc512317)
 
 The directory structure for this data is:
 
