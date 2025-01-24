@@ -47,7 +47,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 
 ### Highlights:
 - Links to all figures, scripts, datasets, readme, and description files.
-- For each figure, if a script or dataset is missing, it is indicated as `N/A`.
+- For each figure, if a script or dataset is not applicable, it is indicated as `N/A`.
 - Organized figures into two categories: Manuscript and Supporting Information for clarity.
 
 Feel free to browse through the figures, and check the corresponding scripts and datasets. Ensure all dependencies are installed before attempting to run the scripts for reproducibility.
