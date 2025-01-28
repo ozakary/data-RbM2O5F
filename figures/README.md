@@ -17,7 +17,7 @@ To reproduce the figures and analyze the data, you will need the following softw
 - **Statsmodels**
 - **mrsimulator**
 - **supercell program**
-- **PowerPoint**
+- **Inkscape**
 - **DMFit**
 
 ## Table 1: Figures from the Manuscript
