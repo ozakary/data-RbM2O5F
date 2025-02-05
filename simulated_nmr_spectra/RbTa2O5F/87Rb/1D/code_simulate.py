@@ -24,7 +24,7 @@ def read_sites_from_file(filename):
                 
                 # Assuming the relevant data columns based on your description:
                 delta_iso = float(data[2])  # 3rd column
-                delta_csa = float(data[3]) * -3.5 # 4th column
+                delta_csa = float(data[3]) * -3 # 4th column
                 eta_csa = float(data[4])  # 5th column
                 C_Q = float(data[5]) * 1e6  # 6th column
                 eta_Q = float(data[6])  # 7th column
