@@ -55,7 +55,7 @@ def plot_combined_and_experimental_spectrum(chunk_files, experimental_file, oper
     )
 
     # Plot the theoretical spectrum
-    ax.plot(combined_delta_iso, combined_intensity*0.44e4, label='Theoretical', color='#2A9D8F', linestyle='dashed')
+    ax.plot(combined_delta_iso, combined_intensity*0.43e4 + 1500, label='Theoretical', color='#2A9D8F', linestyle='dashed')
 
     # Plot settings
     ax.set_xlabel(r'$^{87}Rb$ $frequency$ / $ppm$')
@@ -72,7 +72,7 @@ def plot_combined_and_experimental_spectrum(chunk_files, experimental_file, oper
         experimental_data['Intensity_scaled'] / 54 + 0.5e4, 
         color='#264653'
     )
-    ax_inset_1.plot(combined_delta_iso, combined_intensity*0.44e4 + 0.5e4, color='#2A9D8F', linestyle='dashed')
+    ax_inset_1.plot(combined_delta_iso, combined_intensity*0.43e4 + 0.5e4, color='#2A9D8F', linestyle='dashed')
 
     # Zoomed region settings
     ax_inset_1.set_xlabel(r'$^{87}Rb$ $frequency$ / $ppm$')
@@ -81,7 +81,7 @@ def plot_combined_and_experimental_spectrum(chunk_files, experimental_file, oper
     ax_inset_1.invert_xaxis()  # Invert x-axis in the inset as well
 
     # Add the inset 2 plot
-    ax_inset_2 = inset_axes(ax, width="40%", height="22%", loc="upper right", borderpad=1)
+    ax_inset_2 = inset_axes(ax, width="25%", height="22%", loc="upper right", borderpad=1)
 
     ax_inset_2.plot(
         experimental_data['Delta_ISO (ppm)'], 
@@ -89,11 +89,11 @@ def plot_combined_and_experimental_spectrum(chunk_files, experimental_file, oper
         linewidth=2.5,
         color='#264653'
     )
-    ax_inset_2.plot(combined_delta_iso, combined_intensity*0.44e4 + 250, color='#2A9D8F', linestyle='dashed')
+    ax_inset_2.plot(combined_delta_iso, combined_intensity*0.43e4 + 250, color='#2A9D8F', linestyle='dashed')
 
     # Zoomed region settings
     ax_inset_2.set_xlabel(r'$^{87}Rb$ $frequency$ / $ppm$')
-    ax_inset_2.set_xlim(-450, -150)
+    ax_inset_2.set_xlim(-250, -150)
     ax_inset_2.set_ylim(0, 1700)  # Adjust the y-limits if needed
     ax_inset_2.invert_xaxis()  # Invert x-axis in the inset as well
 
@@ -103,7 +103,7 @@ def plot_combined_and_experimental_spectrum(chunk_files, experimental_file, oper
 
 # Main execution
 if __name__ == "__main__":
-    experimental_file = 'figure_10-b_data-1.asc'
+    experimental_file = 'exp_vs_fit_spec_and_model_all_lines.asc'
     operating_frequency_mhz = 278.221  # Operating frequency in MHz
 
     # Dynamically collect all chunk files matching the pattern
