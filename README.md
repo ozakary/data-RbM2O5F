@@ -11,6 +11,7 @@
 **Personal Website:** [Ouail Zakary - personal webpage](https://ozakary.github.io/)
 
 This is the Supporting Dataset for the manuscript “Revealed Preferential Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”.
+[![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.inorgchem.5c00615-green.svg)](https://doi.org/10.1021/acs.inorgchem.5c00615)
 
 The dataset comprises the following sections:
 
