@@ -26,11 +26,12 @@ The dataset comprises the following sections:
 
 If you use this data, please cite the following: \
 \
-**Preprint(!!!NOT PEER REVIEWED YET!!!):** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. Revealed Preferential Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides. **2025**.
+**Paper:** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. Revealed Preferential Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides. *Inorg. Chem.* **2025**.
+[![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.inorgchem.5c00615-green.svg)](https://doi.org/10.1021/acs.inorgchem.5c00615)
 
 \
-**Dataset(!!!NOT PEER REVIEWED YET!!!):** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. (**2025**). Supporting Data for “Revealed Preferential  Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”. *figshare. Dataset.*
-
+**Dataset:** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. (**2025**). Supporting Data for “Revealed Preferential  Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides”. *figshare. Dataset.*
+[![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.28263374.v1-orange.svg)](https://doi.org/10.6084/m9.figshare.28263374.v1)
 
 ---
 
