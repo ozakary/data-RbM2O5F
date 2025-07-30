@@ -26,7 +26,7 @@ The dataset comprises the following sections:
 
 If you use this data, please cite the following: \
 \
-**Paper:** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. Revealed Preferential Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides. *Inorg. Chem.* **2025**.
+**Paper:** Zakary, O.; Body, M.; Sarou-Kanian, V.; Charpentier, T.; Legein, C. Revealed Preferential Short-Range Anion Ordering in Disordered RbM<sub>2</sub>O<sub>5</sub>F (M = Nb, Ta) Pyrochlore-Type Oxyfluorides. *Inorg. Chem.* **2025**, *64*, 5764–5777.
 [![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.inorgchem.5c00615-green.svg)](https://doi.org/10.1021/acs.inorgchem.5c00615)
 
 \
